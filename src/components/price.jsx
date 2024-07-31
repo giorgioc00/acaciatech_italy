@@ -10,7 +10,7 @@ const price = () => {
         <div className='flex flex-col justify-center lg:flex-row gap-2 mb-0'>
           <div className='bg-[#093157] h-[450px] lg:w-[350px] mx-6 my-4 p-10 text-center shadow-lg text-white shadow-[#4c91be]'>
             <p className='lg:text-xl text-center  text-3xl font-medium lg:mt-6'>Landing Page</p>
-            <span className='text-2xl lg:ml-4'>19,000</span><small>ETB/once</small>
+            <span className='text-2xl lg:ml-4'>19,000 </span><small>ETB/once</small>
            <div className='m-4'>
               <ul className='flex flex-col gap-1'>
               <li class='flex items-center'>
@@ -41,7 +41,7 @@ const price = () => {
             </div>
             <p className='lg:text-xl text-3xl font-medium -mt-8'>Static Website</p>
             <p className=' '>Informative and business details</p>
-             <span className='text-2xl'>29,000</span><small>ETB/once</small>
+             <span className='text-2xl px-1'>29,000</span><small>ETB/once</small>
             
             <div className='m-4 mx-12'>
               <ul className='flex flex-col gap-1'>
@@ -61,7 +61,7 @@ const price = () => {
           </div>
           <div className='bg-[#093157] text-center h-[450px] lg:w-[350px] mx-6 my-4 p-10 shadow-lg text-white shadow-[#4c91be] '>
             <p className='lg:text-xl text-3xl font-medium lg:mt-6'>Custom Software</p>
-            <span className='text-2xl'> 50,000</span><small>ETB</small><span className='text-2xl'>+</span>  
+            <span className='text-2xl px-1'> 50,000</span><small>ETB</small><span className='text-2xl'>+</span>  
             <div className='m-4'>
               <ul className='flex flex-col gap-1'>
               <li class='flex items-center'>
