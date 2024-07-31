@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --textShadow1: #2e7f09; 
+  --textShadow2: #0a192c;
+}
+
+@font-face {
+  font-family: "ProximaNova-Regular";
+  src: url("ProximaNova-Regular"),
+  url('./fonts/ProximaNova-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "ProximaNova-Bold";
+  src: url("ProximaNova-Bold"),
+  url('./fonts/ProximaNova-Bold.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "ProximaNova-Extrabld";
+  src: url("ProximaNova-Extrabld"),
+  url('./fonts/ProximaNova-Extrabld.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: "ProximaNova-Semibold";
+  src: url("ProximaNova-Semibold"),
+  url('./fonts/ProximaNova-Semibold.ttf') format("truetype");
+}
+
+
+@keyframes zoom-in {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .animate-zoom-in {
+    animation: zoom-in 1.5s ease-out;
+  }
+
+  @keyframes fade-in-right {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  .animate-fade-in-right {
+    animation: fade-in-right 0.3s ease-out;
+  }
+
+/* slide-out-right */
+
+@keyframes slide-out-right {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-out-right {
+  animation: slide-out-right 0.3s ease-out;
+}
+
+/* Example CSS */
+header {
+  margin: 0;
+  padding: 0;
+}
+
+.tx-shdow{
+  font: 1em 'Orbitron', Arial, sans-serif;
+  color: #ffffff;
+  text-shadow: 0px 0x 3px #6db3ff;
+}
+.price{
+  padding-top:46px;
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+}
+.gradient-border {
+  position: relative;
+  border-radius: 8px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.gradient-border:before {
+  content: '';
+  position: absolute;
+  top: -2px; /* Adjust based on border width */
+  left: -2px; /* Adjust based on border width */
+  right: -2px; /* Adjust based on border width */
+  bottom: -2px; /* Adjust based on border width */
+  background: linear-gradient(45deg, #ff6ec4, #7873f5); /* Your gradient colors */
+  z-index: -1;
+  border-radius: inherit;
+}
+.custom-bg {
+  background-image: url('./images/server_black.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.price-bg{
+  background-image: url('./images/price-bg.jpg');
+  background-size: cover;
+  background-position: center;
+}
