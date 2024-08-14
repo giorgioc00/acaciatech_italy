@@ -3,7 +3,7 @@ import React from 'react'
 const price = () => {
   return (
     <>       
-      <section id='pricing' className='price-bg bg-cover bg-center'>
+      <section id='' className='price-bg bg-cover bg-center'>
         <div className="text-center pb-4 lg:pb-0 pt-10 lg:pt-4 lg:p-6 text-[#093157]">
           <h2 className="text-3xl font-medium lg:my-6">Our fixed packages</h2>
         </div>

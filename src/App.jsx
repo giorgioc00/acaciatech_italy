@@ -1,3 +1,5 @@
+import { Helmet } from 'react-helmet-async';
+
 import Header from './components/Header'
 import Solutions from './components/Solutions'
 import Missionvision from './components/Missionvision'
@@ -15,17 +17,19 @@ function App() {
 
   return (
      <>
-      
-       <Header/>
+     <Helmet>
+     <title>Acacia Technologies PLC</title>
+     <meta name="description" content="Acacia technologies PLC is a custom software and web application development and design company." />
+ 
+      <Header/>
       <Solutions/>
-       <AboutUs />
+      <AboutUs />
       <Price/> 
-       <Missionvision/>
-       <Contactus/>
+      <Missionvision/>
+      <Contactus/>
       <Footer/>
+     </Helmet>
     </>
   )
 }
-{/* <div ref={ref1} className={`absolute top-0 left-1/2 -translate-x-1/2 transform flex gap-6 justify-center pt-14 overflow-x-auto w-full px-10 ml-2 to-zinc-200 py-10 pl-6 transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"} `}> */}
-
 export default App

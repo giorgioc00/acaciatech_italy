@@ -1,3 +1,5 @@
+import { Helmet } from 'react-helmet-async';
+
 import { useIsVisible } from "./Scrollefect";
 import { useEffect, useRef } from 'react';
 import { aboutUsVideo} from "../images/img";
@@ -31,7 +33,11 @@ const AboutUs = () => {
   };
 
   return (
-    <section id="learn-more" ref={sectionRef} className="relative h-[500px] py-10 overflow-hidden">
+    <>
+    <Helmet>
+     <title>Acacia Technologies PLC</title>
+     <meta name="description" content="Acacia Technologies, we are a software agency in Ethiopia, Hawassa. We specialize in developing unique and impactful websites that help businesses thrive online." />
+    <section id="about-us" ref={sectionRef} className="relative h-[500px] py-10 overflow-hidden">
       {/* Video Background */}
       <div className="absolute inset-0 z-0">
       <video 
@@ -55,6 +61,8 @@ const AboutUs = () => {
         </p>
       </div>
     </section>
+    </Helmet>
+    </>
   );
 };
 
