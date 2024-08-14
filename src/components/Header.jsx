@@ -16,7 +16,7 @@ const Header = () => {
     <Helmet>
       <title>Acacia Technologies</title>
       <meta name="description" content="Acacia technologies is a custom software and web application development and design company." />
- 
+    </Helmet>
       <div id="home" className="lg:pb-40 mx-auto custom-bg  bg-cover bg-center bg-fixed header">
         <img src="" alt="" />
         <header className="bg-[#030712] text-blue-900 z-30 md:bg-opacity-90 transition duration-300 ease-in-out h-24 text-center mx-auto w-full border-b border-indigo-300">
@@ -69,7 +69,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-</Helmet>
+
     </>
   )
 }

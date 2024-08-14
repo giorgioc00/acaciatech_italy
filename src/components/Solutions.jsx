@@ -1,3 +1,4 @@
+
 import { Helmet } from 'react-helmet-async';
 
 import { useIsVisible } from "./Scrollefect";
@@ -23,9 +24,9 @@ const Solutions = () => {
   return (
     <>
     <Helmet>
-     <title>Acacia Technologies PLC</title>
-     <meta name="description" content="Acacia tech solutions custom software, Web Applications, E-Commerce Development, Assets and Inventory Management System and IT consultant services for enterprise level" />
- 
+      <title>Acacia Technologies PLC</title>
+      <meta name="description" content="Acacia tech solutions custom software, Web Applications, E-Commerce Development, Assets and Inventory Management System and IT consultant services for enterprise level" />
+     </Helmet>
       <section className= 'bg-[#093157]'>
         <div className="text-center pt-10 lg:p-6 text-white">
           <h2 className="text-white text-[36px] font-medium lg:mt-6">The Services We Offer</h2>
@@ -125,8 +126,28 @@ const Solutions = () => {
           </div>   
         </div>
       </section>
-      </Helmet>
+     
     </>
   )
 }
 export default Solutions;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
