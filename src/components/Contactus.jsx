@@ -57,8 +57,8 @@ const sendEmail = (e) => {
   // Start loading
   setLoading(true);
 
-  emailjs.sendForm('service_u63erek', 'template_berv3y6', form.current, {
-    publicKey: 'QofdXISfDZyHkHMDM',
+  emailjs.sendForm('service_1p581y8', 'template_ge1fw5g', form.current, { 
+    publicKey: 'j8bXkd_kzQMJ-kJCp',
   }).then(
     () => {
       console.log('SUCCESS!');
