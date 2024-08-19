@@ -36,8 +36,8 @@ const price = () => {
             </a>
           </div>
           <div className='bg-gradient-to-r from-[#093157] to-[#21629f] bg-opacity-50 rounded-md border-t-4 border-[#b73327] text-center h-[450px] lg:w-[350px] mx-6 my-4  shadow-lg text-white shadow-[#4c91be] lg:scale-105'>
-            <div className='relative -top-4 left-56 h-10 my-8 rotate-45 bg-red-800 w-36'>
-              <p className='absolute ml-3 py-2'>Most requested</p>
+            <div className='relative -top-4 left-56 h-10 my-8 rotate-45 bg-red-800 w-28 lg:w-36'>
+              <p className='absolute ml-3 py-2 text-xs lg:text-sm'>Most requested</p>
             </div>
             <p className='lg:text-xl text-3xl font-medium -mt-8'>Static Website</p>
             <p className=' '>Informative and business details</p>
