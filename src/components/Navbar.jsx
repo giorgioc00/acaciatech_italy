@@ -1,37 +1,34 @@
 import React from 'react'
-import { telephone,ethiopia,logo } from "../images/img";
+import { telephone, horizontalLogo } from "../images/img";
 
 const Navbar = () => {
   return (
-   <>
-   <div>
-        <header className="bg-[#030712] text-blue-900 z-30 md:bg-opacity-90 transition duration-300 ease-in-out h-24 text-center mx-auto w-full border-b border-indigo-300">
-            <div className="flex items-center justify-between mx-5 lg:mx-10 pt-3">
-            <div className="flex items-center gap-6 lg:pl-6">
-                <a href="#home">
-                {/* mobile logo */}
-                <div className="w-44 ">
-                <img src={logo} alt="" height="32" />
-                </div>
-                </a>
-            </div>
-            
-            <div className="text-white hidden lg:inline">
-            
-                <div className="inline-block ">
-                <img src={telephone} className="inline-block" width="20" height="10" alt="" /> 
-                <span className="tx-shdow pr-4 text-3xl font-bold phone_no shadow-lg shadow-red-500/50 ">+251 988 07 77 07</span>
-                </div>
-            <img className="inline-block m-2" src={ethiopia} alt="" height="32" width="20" />
-            <span className="text-sm">Hawassa, Ethiopia
-            {/* 📍 */}
-            </span>
-            </div>
-            </div>
-        </header>
-   </div>
-   </>
-  )
-}
+    <header className="bg-[#093157] text-white z-30 transition duration-300 ease-in-out h-24 w-full border-b border-indigo-300">
+      <div className="flex items-center justify-between px-5 lg:px-10 h-full">
+        
+        {/* Logo */}
+        <a href="#home">
+          <img src={horizontalLogo} alt="Logo" className="w-72" />
+        </a>
 
-export default Navbar
+        {/* Info di contatto */}
+        <div className="hidden lg:flex items-center space-x-4">
+          {/* Numero di telefono */}
+          <div className="flex items-center space-x-2">
+            <img src={telephone} alt="Telefono" width="20" height="20" />
+            <span className="text-sm font-semibold">+251 988 07 77 07</span>
+          </div>
+
+          {/* Località */}
+          <div className="flex items-center space-x-2">
+            <span className="text-sm flex items-center">
+              📍 🇪🇹 Hawassa, Ethiopia |  🇮🇹 Turin, Italy
+            </span>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default Navbar;
