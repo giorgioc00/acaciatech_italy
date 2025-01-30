@@ -18,7 +18,7 @@ const Header = () => {
       <title>Acacia Technologies</title>
       <meta name="description" content="Acacia technologies is a custom software and web application development and design company." />
     </Helmet>
-      <div id="home" className="pb-10 lg:pb-20 mx-auto custom-bg bg-cover bg-center bg-fixed header">
+      <div id="home" className="pb-10 lg:pb-48 mx-auto custom-bg bg-cover bg-center bg-fixed header">
         <div className="w-full lg:border-none">
           <div className="container lg:flex lg:flex-col-4">
             <div className="pt-20 lg:ml-20 mx-4">
@@ -28,7 +28,7 @@ const Header = () => {
                 <span className="text-white inline-block">rendili il&nbsp;</span>
                 <span className="text-white inline-block underline decoration-[#b73327] decoration-4">tuo vantaggio</span>
               </h1>
-                <p className="mt-4 lg:px-1 lg:mr-16 font-regular text-2xl lg:text-left lg:text-xl lg:max-w-3xl leading-relaxed text-gray-200">
+                <p className="mt-10 lg:mt-4 lg:px-1 lg:mr-16 font-regular text-2xl lg:text-left lg:text-xl lg:max-w-3xl leading-relaxed text-gray-200">
                 Acacia ti affianca per connettere ogni fonte, estrarre valore e crescere con i dati.
                 </p>
               </div>      
@@ -43,7 +43,7 @@ const Header = () => {
             </div>
           </div>
         {/* add quote */}
-       <Quote />
+       
         </div>
       </div>
     </>
