@@ -29,9 +29,8 @@ const Solutions = () => {
      </Helmet>
       <section className= 'bg-[#093157]'>
         <div className="text-center pt-10 lg:p-6 text-white">
-          <h2 className="text-white text-[36px] font-medium lg:mt-6">The Services We Offer</h2>
-          <p className=" mt-8 text-gray-200 text-xl lg:text-2xl lg:text-[18px] font-regular justify-center">Embrace the Digital Age: Empowering Your Business with 
-          Technological Advancement for Future Success</p>
+          <h2 className="text-white text-[36px] font-medium lg:mt-6">Da dove e da che sorgenti?</h2>
+          <p className=" mt-8 text-gray-200 text-xl lg:text-2xl lg:text-[18px] font-regular justify-center">Scopri dove possiamo raccogliere i dati che contano per il tuo business</p>
         </div>
 
         <div className='grid lg:grid-cols-2 lg:gap-7 text-white max-w-6xl mx-auto py-5 lg:py-10'>
@@ -39,12 +38,11 @@ const Solutions = () => {
             <div className="flex gap-5">
             <img className="w-16 h-16" src={ecomerce} alt=""/>
             <h4 className="text-gray-800 font-semibold text-[20px] lg:text-2xl pt-4">
-            E-Commerce Development
+            E-Commerce
             </h4>
             </div>
             <p className="text-gray-600 py-1 font-regular text-[18px]" >
-            Our e-Commerce specialists handle everything for you, from storefront development and design to product
-              inventory management, ensuring a comprehensive and enjoyable experience.
+            I nostri esperti ti aiutano a raccogliere e analizzare in modo efficace tutti i dati essenziali del tuo negozio digitale, offrendoti insight strategici per ottimizzare vendite, conversioni e performance.
             </p>
             <a className=" hidden text-blue-700 font-bold flex-row mt-10 items-center gap-2" href="" >
               <span>See More</span>
@@ -61,7 +59,7 @@ const Solutions = () => {
             <div className="flex gap-5">
               <img className="w-16 h-16" src={webapp} alt=""/>
             <h4 className="text-gray-800 font-semibold text-[20px] lg:text-2xl py-1">
-            Custom Web Applications
+            Traffico del tuo sito
             </h4>
             </div>
             <p  className="font-regular text-[18px]">
