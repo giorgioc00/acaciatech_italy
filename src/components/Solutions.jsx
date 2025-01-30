@@ -25,10 +25,10 @@ const Solutions = () => {
       <title>Acacia Technologies PLC</title>
       <meta name="description" content="Acacia tech solutions custom software, Web Applications, E-Commerce Development, Assets and Inventory Management System and IT consultant services for enterprise level" />
      </Helmet>
-      <section className= 'bg-[#093157]'>
-        <div className="text-center pt-10 lg:p-6 text-white">
-          <h2 className="text-white text-[36px] font-medium lg:mt-6">Da dove e da che sorgenti?</h2>
-          <p className=" mt-8 text-gray-200 text-xl lg:text-2xl lg:text-[18px] font-regular justify-center">Scopri dove possiamo raccogliere i dati che contano per il tuo business</p>
+      <section className= 'bg-[#093157] lg:pt-1 pt-10'>
+        <div className="text-center text-white">
+          <h2 className="text-white text-[36px] font-medium">Le sorgenti più richieste</h2>
+          <p className="hidden mt-8 text-gray-200 text-xl lg:text-2xl lg:text-[18px] font-regular justify-center">Scopri dove possiamo raccogliere i dati che contano per il tuo business</p>
         </div>
 
         <div className='grid lg:grid-cols-2 lg:gap-7 text-white max-w-6xl mx-auto py-5 lg:py-10'>
@@ -40,7 +40,7 @@ const Solutions = () => {
             </h4>
             </div>
             <p className="text-gray-600 py-1 font-regular text-[18px]" >
-            I nostri esperti ti aiutano a raccogliere e analizzare in modo efficace tutti i dati essenziali del tuo negozio digitale, offrendoti insight strategici per ottimizzare vendite, conversioni e performance.
+            I nostri esperti ti aiutano a raccogliere e analizzare in modo efficace tutti i dati essenziali del tuo negozio digitale, come comportamenti dei clienti e tendenze offrendoti insight strategici per ottimizzare vendite, conversioni e performance.
             </p>
             <a className=" hidden text-blue-700 font-bold flex-row mt-10 items-center gap-2" href="" >
               <span>See More</span>
@@ -61,8 +61,9 @@ const Solutions = () => {
             </h4>
             </div>
             <p  className="text-gray-600 py-1 font-regular text-[18px]">
-            Tailor made software becomes essential if you’re seeking functionalities that standard solutions 
-            can’t provide, or if you want to outshine competitors through tech innovation.
+            Il tuo sito web è una miniera di informazioni: visitatori, durata sessioni, pagine più cliccate e percorsi di navigazione. 
+            Integrando questi dati con altre fonti, ottieni una visione più completa e strategie mirate per ottimizzare il funnel di conversione
+
             </p>
             {/* remember to add 'flex' when you remove 'hidden' className */}
             <a
@@ -81,11 +82,12 @@ const Solutions = () => {
             <div className="flex gap-5">
               <img className="w-16 h-16 my-auto" src={asetmgt} alt=""/>
             <h4 className="text-gray-800 font-semibold text-[20px] lg:text-2xl py-1">
-            Assets and Inventory Management System
+            Social Media & Digital Advertising
             </h4>
             </div>
             <p className="text-gray-600 py-1 font-regular text-[18px]">
-            Efficiently Streamline Your Business Operations with our Assets and Inventory Management System, Providing Real-Time Insights and Optimal Control.
+            Le piattaforme social e le campagne pubblicitarie digitali generano una quantità immensa di dati su engagement, preferenze e comportamenti dei clienti.
+            Metriche come impression, CTR, conversioni e interazioni possono aiutarti a capire quali strategie funzionano davvero.
             </p>
             <a
             className=" hidden text-blue-700 font-bold flex-row mt-10 items-center gap-2"
@@ -103,12 +105,12 @@ const Solutions = () => {
             <div ref={ref4} className="flex gap-5">
               <img className={`w-16  h-16 my-auto ${isVisible4 ? "animate-slide-out-right" : ""}`} src={consultant} alt="" width={40}/>
             <h4 className="text-gray-800 font-semibold text-[20px] lg:text-2xl py-1"> 
-              IT consultant  services for enterprise level
+              IoT Devices
             </h4>
             </div>
             <p className="text-gray-600 py-1 font-regular text-[18px]">
-              we offer specialized IT consulting services tailored specifically for enterprise-level customers.
-              With our expertise and innovative solutions, we strive to empower businesses to thrive in the ever-evolving digital landscape.
+            I dispositivi IoT generano un flusso costante di dati in tempo reale.
+             Che si tratti di sensori intelligenti, dispositivi connessi o sistemi di automazione , ti forniamo gli strumenti per raccogliere, analizzare e trasformare questi dati in decisioni strategiche.
             </p>
             <a className="hidden text-blue-700 font-bold  flex-row mt-10 items-center gap-2" href="" >
               <span>See More</span>
