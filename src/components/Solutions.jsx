@@ -27,7 +27,12 @@ const Solutions = () => {
      </Helmet>
       <section className= 'bg-[#093157] lg:pt-1 pt-10'>
         <div className="text-center text-white">
-          <h2 className="text-white text-[36px] font-medium">Le sorgenti più richieste</h2>
+        <h2 className="text-white text-[36px] font-extrabold leading-snug tracking-wide pb-2 inline-block">
+  <span className="border-b-4 border-spacing-0 border-red-500">Le sorgenti</span> più richieste
+</h2>
+
+
+
           <p className="hidden mt-8 text-gray-200 text-xl lg:text-2xl lg:text-[18px] font-regular justify-center">Scopri dove possiamo raccogliere i dati che contano per il tuo business</p>
         </div>
 
