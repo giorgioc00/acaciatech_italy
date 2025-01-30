@@ -8,33 +8,7 @@ const Contactus = () => {
 
 const [loading, setLoading] = useState(false);
 const form = useRef();
- const preFilledMessage = `[YOU CAN TYPE YOUR OWN MSG]
- Dear AcaciaTech Development Team, I am reaching out to propose
-a collaboration on a new project. We are looking to create a comprehensive website and mobile application that aligns
- with our vision and goals.
-
-Project Overview:
-👉Website: The website will serve as the primary platform for our services, featuring an intuitive user interface,
-seamless navigation, and robust backend functionalities.
-👉Mobile Application: The mobile application will complement the website, providing users with on-the-go access
-to our services. It will be developed using React Native for cross-platform compatibility.
-
-Key Features:
-- User authentication and profiles
-- Real-time data synchronization
-- Integration with third-party APIs
-- Secure payment processing
-- Responsive design for all devices
-
-We believe that your expertise Software Development
-makes you an ideal partner for this project. We are excited about the potential of this collaboration and are eager to discuss
- further details.
-
-Please let us know your availability for a meeting to discuss this proposal in more detail. We look forward to hearing
-from you soon.
-
-Best regards,
-[Phone Number]`;
+ const preFilledMessage = "";
  const [message, setMessage] = useState(preFilledMessage);
 
  const handleChange = (e) => {
@@ -161,7 +135,7 @@ const sendEmail = (e) => {
               cols="10"
               rows="5"
               value={message} // Set the value to the state
-              placeholder="Message"
+              placeholder="Message..."
               className="w-full border border-gray-300 rounded-md py-2 px-3 my-2 focus:outline-none focus:border-blue-500"
               onChange={handleChange} // Update the state on change
             />

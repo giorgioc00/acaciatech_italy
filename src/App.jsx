@@ -4,11 +4,13 @@ import Header from './components/Header';
 import Solutions from './components/Solutions';
 import Missionvision from './components/Missionvision';
 import Contactus from './components/Contactus';
-import Price from './components/price';
+// import Price from './components/price';
 import AboutUs from './components/About';
 import Footer from './components/Footer';
 
 import './App.css';
+import Navbar from './components/Navbar';
+
 
 function App() {
   return (
@@ -20,11 +22,15 @@ function App() {
           content="Acacia Technologies PLC is a custom software and web application development and design company."
         />
       </Helmet>
-      
+      <Navbar />
       <Header />
-      <Solutions />
+      {/* add quote */}
+      
+      <div className=''>
+       <Solutions />
+      </div>
       <AboutUs />
-      <Price />
+      {/* <Price /> */}
       <Missionvision />
       <Contactus />
       <Footer />

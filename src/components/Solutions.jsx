@@ -19,8 +19,6 @@ const Solutions = () => {
   const ref4 = useRef();
   const isVisible4 = useIsVisible(ref4);
 
-
-
   return (
     <>
     <Helmet>
@@ -37,7 +35,7 @@ const Solutions = () => {
           <div ref={ref1} className={`flex flex-col gap-3 mx-6 my-4 p-10 cursor-pointer ${isVisible1 ? "opacity-100" : "opacity-0"} bg-white shadow-lg shadow-[#4c91be] g-blue-500 transition ease-in-out delay-150 g-blue-500 hover:-translate-y-1 hover:scale-110 duration-500 `} >
             <div className="flex gap-5">
             <img className="w-16 h-16" src={ecomerce} alt=""/>
-            <h4 className="text-gray-800 font-semibold text-[20px] lg:text-2xl pt-4">
+            <h4 className="text-gray-800 font-semibold text-[20px] lg:text-2xl py-1">
             E-Commerce
             </h4>
             </div>
@@ -62,7 +60,7 @@ const Solutions = () => {
             Traffico del tuo sito
             </h4>
             </div>
-            <p  className="font-regular text-[18px]">
+            <p  className="text-gray-600 py-1 font-regular text-[18px]">
             Tailor made software becomes essential if you’re seeking functionalities that standard solutions 
             can’t provide, or if you want to outshine competitors through tech innovation.
             </p>
@@ -86,7 +84,7 @@ const Solutions = () => {
             Assets and Inventory Management System
             </h4>
             </div>
-            <p className="font-regular text-[18px]">
+            <p className="text-gray-600 py-1 font-regular text-[18px]">
             Efficiently Streamline Your Business Operations with our Assets and Inventory Management System, Providing Real-Time Insights and Optimal Control.
             </p>
             <a
@@ -108,7 +106,7 @@ const Solutions = () => {
               IT consultant  services for enterprise level
             </h4>
             </div>
-            <p className="font-regular text-[18px]">
+            <p className="text-gray-600 py-1 font-regular text-[18px]">
               we offer specialized IT consulting services tailored specifically for enterprise-level customers.
               With our expertise and innovative solutions, we strive to empower businesses to thrive in the ever-evolving digital landscape.
             </p>
