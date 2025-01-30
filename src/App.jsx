@@ -1,6 +1,7 @@
 import { Helmet } from 'react-helmet-async';
 
 import Header from './components/Header';
+import Quote from './components/Quote'
 import Solutions from './components/Solutions';
 import Missionvision from './components/Missionvision';
 import Contactus from './components/Contactus';
@@ -24,7 +25,7 @@ function App() {
       </Helmet>
       <Navbar />
       <Header />
-      {/* add quote */}
+      <Quote />
       
       <div className=''>
        <Solutions />
