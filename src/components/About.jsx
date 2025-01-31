@@ -4,9 +4,14 @@ import { Helmet } from 'react-helmet-async';
 import { useIsVisible } from "./Scrollefect";
 import { useEffect, useRef } from 'react';
 import { aboutUsVideo} from "../images/img";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const AboutUs = () => {
+    // Initialize AOS on component mount
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+      }, []);
 const videoRef = useRef(null);
 const sectionRef = useRef();
 const isVisible = useIsVisible(sectionRef);
@@ -56,19 +61,25 @@ return (
     </div>
 
     <div class="relative z-10 top-10 h">
-        <h2 className='text-center text-4xl text-[#082153] font-bold'> How Can We Help? </h2>
+        <h2 className='text-center text-4xl text-[#082153]'> How Can We Help? </h2>
         <div className="flex gap-10 pt-16 justify-center items-center">
-            <div className='flex flex-col justify-center items-center bg-[#033860]  w-72 h-56 border-2  border-[#b83535] text-white cursor-pointer rounded-2xl'>
+            <div
+             data-aos="fade-right"
+            className='flex flex-col justify-center items-center backdrop-filter backdrop-blur-3xl  w-72 h-56 border-2  border-[#b83535] text-[#1e4798] cursor-pointer rounded-2xl'>
                 <h4 className='text-2xl'>Data</h4>
-                <p className='text-xl px-4 text-center pt-4'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
+                <p className='px-4 font-regular text-lg pt-4'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
             </div>
-            <div className='flex flex-col justify-center items-center bg-[#033860]  w-72 h-56 border-2  border-[#b83535] text-white cursor-pointer rounded-2xl'>
+            <div 
+            data-aos="zoom-in"
+            className='flex flex-col justify-center items-center backdrop-filter backdrop-blur-3xl w-72 h-56 border-2  border-[#b83535] text-[#1e4798] cursor-pointer rounded-2xl'>
             <h4 className='text-2xl'>Analytics</h4>
-            <p className='text-xl px-4 text-center pt-4'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
+            <p className='px-4 font-regular text-lg pt-4'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
             </div>
-            <div className='flex flex-col justify-center items-center bg-[#033860]  w-72 h-56 border-2  border-[#b83535] text-white cursor-pointer rounded-2xl'>
+            <div
+            data-aos="fade-left"
+            className='flex flex-col justify-center items-center w-72 h-56 border-2  border-[#b83535] text-[#1e4798] cursor-pointer rounded-2xl backdrop-filter backdrop-blur-3xl'>
             <h4 className='text-2xl'>Examples</h4>
-            <p className='text-xl px-4 text-center pt-4'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
+            <p className='px-4 font-regular text-lg pt-4'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
             </div>
         </div> 
     </div>
