@@ -28,11 +28,11 @@ function App() {
       <Quote />
       
       <div className=''>
-       <Solutions />
+       {/* <Solutions /> */}
       </div>
       <AboutUs />
       {/* <Price /> */}
-      <Missionvision />
+      {/* <Missionvision /> */}
       <Contactus />
       <Footer />
     </>

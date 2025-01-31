@@ -24,7 +24,7 @@ const Missionvision = () => {
     <div>
       <section id="learn-more" className="bg-[#f3f4f7] py-10">
       <div className="text-center pt-10 lg:p-6">
-          <h2 className="text-2xl text-[#093157] mx-6 font-medium lg:mt-6">WE’RE PASSIONATE ABOUT DIGITAL SUCCESS</h2>
+          <h2 className="text-2xl text-[#093157] mx-6 lg:mt-6">WE’RE PASSIONATE ABOUT DIGITAL SUCCESS</h2>
           <p className=" mt-8 mb-8 text-gray-800 text-xl mx-4 lg:mx-40 lg:text-2xl lg:text-[18px] font-regular text-justify justify-center">
           We work with well-established companies in Ethiopia that are  willing to take their success 
           digitally to improve their digital marketing to get more customers and build a memorable markete brand.

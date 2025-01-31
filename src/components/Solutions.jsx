@@ -27,8 +27,8 @@ const Solutions = () => {
      </Helmet>
       <section className= 'bg-[#093157] lg:pt-1 pt-10'>
         <div className="text-center text-white">
-        <h2 className="text-white text-[36px] font-extrabold leading-snug tracking-wide pb-2 inline-block">
-  <span className="border-b-4 border-spacing-0 border-red-500">Le sorgenti</span> più richieste
+        <h2 className="text-white text-2xl leading-snug tracking-wide pb-2 inline-block uppercase">
+  <span className="border-b-2 border-spacing-0 border-red-500">Le sorgenti</span> più richieste
 </h2>
 
 
@@ -40,7 +40,7 @@ const Solutions = () => {
           <div ref={ref1} className={`flex flex-col gap-3 mx-6 my-4 p-10 cursor-pointer ${isVisible1 ? "opacity-100" : "opacity-0"} bg-white shadow-lg shadow-[#4c91be] g-blue-500 transition ease-in-out delay-150 g-blue-500 hover:-translate-y-1 hover:scale-110 duration-500 `} >
             <div className="flex gap-5">
             <img className="w-16 h-16" src={ecomerce} alt=""/>
-            <h4 className="text-gray-800 font-semibold text-[20px] lg:text-2xl py-1">
+            <h4 className="text-gray-800 text-[20px] lg:text-2xl py-1">
             E-Commerce
             </h4>
             </div>
@@ -61,7 +61,7 @@ const Solutions = () => {
           <div ref={ref2} className={`flex flex-col gap-3 mx-6 my-4 p-10 cursor-pointer ${isVisible2 ? "opacity-100" : "opacity-0"} bg-white shadow-lg shadow-[#4c91be] text-gray-700 g-blue-500 transition ease-in-out delay-150 g-blue-500 hover:-translate-y-1 hover:scale-110 duration-300`} >
             <div className="flex gap-5">
               <img className="w-16 h-16" src={webapp} alt=""/>
-            <h4 className="text-gray-800 font-semibold text-[20px] lg:text-2xl py-1">
+            <h4 className="text-gray-800 text-[20px] py-1">
             Traffico del tuo sito
             </h4>
             </div>
@@ -86,7 +86,7 @@ const Solutions = () => {
           <div ref={ref3} className={`flex flex-col gap-3 mx-6 my-4 p-10 cursor-pointer ${isVisible3 ? "opacity-100" : "opacity-0"} bg-white shadow-lg shadow-[#4c91be] text-gray-700 g-blue-500 transition ease-in-out delay-150 g-blue-500 hover:-translate-y-1 hover:scale-110 duration-300`} >
             <div className="flex gap-5">
               <img className="w-16 h-16 my-auto" src={asetmgt} alt=""/>
-            <h4 className="text-gray-800 font-semibold text-[20px] lg:text-2xl py-1">
+            <h4 className="text-gray-800 text-[20px] py-1">
             Social Media & Digital Advertising
             </h4>
             </div>
@@ -109,7 +109,7 @@ const Solutions = () => {
           <div ref={ref4} className={`flex flex-col gap-3 mx-6 my-4 p-10 cursor-pointer ${isVisible4 ? "opacity-100" : "opacity-0"} bg-white shadow-lg shadow-[#4c91be] text-gray-700 g-blue-500 transition ease-in-out delay-150 g-blue-500 hover:-translate-y-1 hover:scale-110 duration-300`} >
             <div ref={ref4} className="flex gap-5">
               <img className={`w-16  h-16 my-auto ${isVisible4 ? "animate-slide-out-right" : ""}`} src={consultant} alt="" width={40}/>
-            <h4 className="text-gray-800 font-semibold text-[20px] lg:text-2xl py-1"> 
+            <h4 className="text-gray-800 text-[20px] py-1"> 
               IoT Devices
             </h4>
             </div>
