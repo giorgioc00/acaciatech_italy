@@ -55,14 +55,22 @@ return (
         <div className="absolute inset-0 opacity-100"></div> {/* Optional: Overlay for better text visibility */}
     </div>
 
-    <div class="flex">
-        <div className="relative z-10 text-center border-2 border-[#20456a] top-10 h-[350px] lg:p-6 mx-auto max-w-96 lg:max-w-3xl backdrop-filter backdrop-blur-sm">
-        <h2 className="text-[#093157] text-[36px] font-medium lg:mt-6">Acacia Technologies PLC</h2>
-        <p className="text-justify px-6 leading-normal flex mt-8 text-[#010000] text-xl lg:text-[18px] font-regular justify-center">
-        Welcome to Acacia Technologies, we are a software agency in Ethiopia, Hawassa established in 2023
-        by Giorjo Contenti. We specialize in developing unique and impactful websites that help businesses thrive online.
-        </p>
-    </div> 
+    <div class="relative z-10 top-10 h">
+        <h2 className='text-center text-4xl text-[#082153] font-bold'> How Can We Help? </h2>
+        <div className="flex gap-10 pt-16 justify-center items-center">
+            <div className='flex flex-col justify-center items-center bg-[#033860]  w-72 h-56 border-2  border-[#b83535] text-white cursor-pointer rounded-2xl'>
+                <h4 className='text-2xl'>Data</h4>
+                <p className='text-xl px-4 text-center pt-4'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
+            </div>
+            <div className='flex flex-col justify-center items-center bg-[#033860]  w-72 h-56 border-2  border-[#b83535] text-white cursor-pointer rounded-2xl'>
+            <h4 className='text-2xl'>Analytics</h4>
+            <p className='text-xl px-4 text-center pt-4'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
+            </div>
+            <div className='flex flex-col justify-center items-center bg-[#033860]  w-72 h-56 border-2  border-[#b83535] text-white cursor-pointer rounded-2xl'>
+            <h4 className='text-2xl'>Examples</h4>
+            <p className='text-xl px-4 text-center pt-4'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
+            </div>
+        </div> 
     </div>
    
     </section>

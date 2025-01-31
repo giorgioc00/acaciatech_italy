@@ -75,7 +75,7 @@ const sendEmail = (e) => {
              <path d="M20 10.12a2.12 2.12 0 0 1-.62 1.5L17.5 13.5l-3-3 1.88-1.88a2.12 2.12 0 0 1 3.62 1.5z" fill="#ffffff"/>
            </g>
         </svg>
-           <p className="uppercase font-semibold">Address</p>
+           <p className="uppercase font-semibold text-[#082153] ">Address</p>
            <p className="text-gray-700 ">Trufat Hawassa</p>
            <p className="text-gray-700 ">worku buche tower</p>
              
@@ -94,7 +94,7 @@ const sendEmail = (e) => {
             <path d="m39.71 32.29-4-4a5.26 5.26 0 0 0-7.42 0l-.91.91a3.24 3.24 0 0 1-4.44.15 38.62 38.62 0 0 1-4.29-4.29 3.24 3.24 0 0 1 .15-4.44l.91-.91a5.26 5.26 0 0 0 0-7.42l-4-4a5.26 5.26 0 0 0-7.42 0L7 9.64a5.22 5.22 0 0 0-1.39 4.95l.06.24c3.68 14.6 13 23.87 27.54 27.55l.25.06a4.74 4.74 0 0 0 1.24.16 5.28 5.28 0 0 0 3.71-1.55l1.35-1.34a5.26 5.26 0 0 0-.05-7.42zm-1.42 6L37 39.64a3.22 3.22 0 0 1-3.05.86l-.25-.06C19.83 37 11.05 28.17 7.56 14.34l-.06-.24a3.22 3.22 0 0 1 .86-3l1.35-1.39a3.24 3.24 0 0 1 4.58 0l4 4a3.23 3.23 0 0 1 0 4.58l-.91.91a5.31 5.31 0 0 0-.25 7.16 41.75 41.75 0 0 0 4.51 4.51 5.31 5.31 0 0 0 7.16-.25l.91-.91a3.3 3.3 0 0 1 4.58 0l4 4a3.23 3.23 0 0 1 0 4.58z" fill="#192835"/>
           </g>
         </svg>
-          <p className="mb-3 uppercase font-semibold">Phone Number</p>
+          <p className="mb-3 uppercase font-semibold text-[#082153] ">Phone Number</p>
           <a href="tel:+251 988077707" className="text-gray-700">+251 988077707</a>
         </div>
         <div className="flex-shrink-0 h-40 w-40 shadow-xl bg-white flex flex-col justify-center items-center">
@@ -105,7 +105,7 @@ const sendEmail = (e) => {
           <path fill="#0030E5" d="M487.267 101.576H24.733c-4.091 0-7.839 1.52-10.73 4.01l241.996 168.529 241.996-168.529c-2.89-2.49-6.637-4.01-10.728-4.01z"/>
           <path fill="#ffffff" d="M487.267 93.332H24.733C11.095 93.332 0 104.427 0 118.065v275.87c0 13.639 11.095 24.733 24.733 24.733h462.533c13.639 0 24.733-11.095 24.733-24.733v-275.87c.001-13.638-11.095-24.733-24.732-24.733zm-9.777 16.489L256 264.068 34.51 109.821h442.98zm18.021 284.114c0 4.547-3.698 8.244-8.244 8.244H24.733c-4.547 0-8.244-3.698-8.244-8.244v-275.87c0-.229.016-.453.034-.677L251.288 280.88a8.243 8.243 0 0 0 9.422 0l234.765-163.492c.019.224.034.448.034.677v275.87h.002z"/>
         </svg>
-          <p className="mb-3 uppercase font-semibold">Email</p>
+          <p className="mb-3 uppercase font-semibold text-[#082153] ">Email</p>
           <a href="mailto:ceo@acaciatech.et" className="text-gray-700 text-lg px-4">ceo@acaciatech.et</a>
         </div>
       </div>
@@ -113,7 +113,7 @@ const sendEmail = (e) => {
       <div ref={ref2} className={`lg:max-w-2xl bg-white mx-auto my-16 pt-10 text-center shadow-3xl transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}` }>
         <form ref={form} onSubmit={sendEmail} 
         className="px-4 mt-10 ">
-          <h2 className=" mt-10 py-16 pb-6 uppercase">Contact us</h2>
+          <h2 className=" mt-10 py-16 pb-6 uppercase text-[#082153] ">Contact us</h2>
           <div className="flex flex-col items-center mx-12">
             <input
               type="text"
