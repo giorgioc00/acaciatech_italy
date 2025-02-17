@@ -9,6 +9,7 @@ const Quote = () => {
         <br />
         <hr className="hidden w-1/5 h-[1px] mt-7 mx-auto my-1 bg-white border-0 " />
     </div>
+    
   )
 }
 

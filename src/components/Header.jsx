@@ -1,4 +1,6 @@
 import { useIsVisible } from "./Scrollefect";
+import { motion } from "framer-motion";
+
 import { useRef } from "react"
 import "../index.css"
 import { Helmet } from 'react-helmet-async';
@@ -46,10 +48,10 @@ const Header = () => {
               </div>      
               <div className="bg-gradient-to-r from-[#263252] to-transparent">
               <div ref={ref2} className={`mb-0 pb-0  my-20 flex flex-col lg:flex-row gap-5 lg:gap-8 w-full transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
-                <a href="#contact-us" className="flex flex-row items-center justify-center rounded-lg text-white hover:border-[#f7f4f4] bg-[#af2d21] bg-opacity-80 hover:border-2 font-bold uppercase transition-all w-full h-14 lg:w-60 pb-1">
+                <a href="#contact-us" className="flex flex-row items-center justify-center text-base rounded-lg text-white hover:border-[#f7f4f4] bg-[#d83b2d] bg-opacity-80 hover:border-2 font-bold uppercase transition-all w-full h-14 lg:w-60 pb-1">
                   SENTIAMOCI
                 </a>
-                <a href="#about-us" className="mb-6 lg:mb-0 flex justify-center items-center rounded-lg border-2 border-gray-300 hover:border-[#ffffff] text-white text-our-secondary hover:bg-[#093157] text-[10x] hover:text-[#ffffff] transition-all h-14 lg:w-60">
+                <a href="#about-us" className="mb-6 lg:mb-0 flex justify-center items-center rounded-lg border-2 border-gray-300 hover:border-[#ffffff] text-white text-our-secondary hover:bg-[#093157] hover:text-[#ffffff] transition-all h-14 lg:w-60 font-bold">
                   A PROPOSITO DI NOI
                 </a>
               </div>
