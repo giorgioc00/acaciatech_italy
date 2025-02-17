@@ -3,12 +3,12 @@ import { telephone, horizontalLogo } from "../images/img";
 
 const Navbar = () => {
   return (
-    <header className="bg-[#093157] text-white z-30 transition duration-300 ease-in-out h-24 w-full border-b border-indigo-300">
-      <div className="flex items-center justify-between px-5 lg:px-10 h-full">
+    <header className="bg-[#093157] text-white z-30 transition duration-300 ease-in-out h-20 w-full border-b border-indigo-300">
+      <div className="flex items-center justify-between px-5 lg:px-10 h-full container">
         
         {/* Logo */}
         <a href="#home">
-          <img src={horizontalLogo} alt="Logo" className="w-72" />
+          <img src={horizontalLogo} alt="Logo" className="w-44" />
         </a>
 
         {/* Info di contatto */}

@@ -23,13 +23,14 @@ const Header = () => {
           <div className="container lg:flex lg:flex-col-4">
             <div className="pt-20 lg:ml-20 mx-4">
               <div ref={ref1} className={`transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
-              <h1 className="font-bold lg:text-6xl text-[42px] leading-[1.3] lg:leading-[1.3] [word-spacing:0.16rem]">
-                <span className="text-white inline-block">Ogni dato <span className="text-[#e13e4f]">conta,</span></span><br/>
-                <span className="text-white inline-block">rendili il&nbsp;</span>
-                <span className="text-white inline-block underline decoration-[#b73327] decoration-4">tuo vantaggio</span>
-              </h1>
-                <p className="mt-10 lg:mt-4 lg:px-1 lg:mr-16 font-regular text-2xl lg:text-left lg:text-xl lg:max-w-3xl leading-relaxed text-gray-200">
-                Acacia ti affianca per connettere ogni fonte, estrarre valore e crescere con i dati.
+              <h1 className="font-bold lg:text-6xl text-[42px] leading-[1.3] lg:leading-[1.3] [word-spacing:0.16rem] text-white text-left bg-blue-950 bg-opacity-80 px-4 rounded-lg">
+              <span className="">Noi la trasformiamo in </span>
+              <span className="text-[#d83b2d]">
+              realtà
+              </span>
+            </h1>
+                <p className="mt-10 lg:px-1 lg:mr-16 font-regular text-2xl lg:text-left lg:text-xl lg:max-w-3xl leading-relaxed text-white font-semibold">
+                Acacia Technologies è il tuo partner tecnologico per trasformare le idee in prodotti concreti e scalabili.  
                 </p>
               </div>      
               <div ref={ref2} className={`mb-0 pb-0  my-20 flex flex-col lg:flex-row gap-5 lg:gap-8 w-full transition-opacity ease-in duration-700 ${isVisible2 ? "opacity-100" : "opacity-0"}`}>
