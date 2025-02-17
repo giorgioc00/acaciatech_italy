@@ -57,33 +57,32 @@ return (
         <source src={aboutUsVideo} type="video/mp4" />
         Your browser does not support the video tag.
     </video>
-        <div className="absolute inset-0 opacity-100"></div> {/* Optional: Overlay for better text visibility */}
+        <div className="absolute inset-0 opacity-100"></div> 
     </div>
 
     <div class="relative z-10 top-10 h">
-        <h2 className='text-center text-4xl text-[#082153]'> How Can We Help? </h2>
+        <h2 className='text-center text-4xl text-[#082153] cap'> How Can We Help? </h2>
         <div className="flex gap-10 pt-16 justify-center items-center">
             <div
              data-aos="fade-right"
-            className='flex flex-col justify-center items-center backdrop-filter backdrop-blur-3xl  w-72 h-56 border-2  border-[#b83535] text-[#1e4798] cursor-pointer rounded-2xl'>
-                <h4 className='text-2xl'>Data</h4>
-                <p className='px-4 font-regular text-lg pt-4'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
+            className='flex flex-col justify-center items-center backdrop-filter backdrop-blur-3xl  w-96 h-56 hover:shadow-lg hover:shadow-blue-900 cursor-pointer rounded-2xl'>
+                <h4 className='text-2xl text-[#1e4798]'>Data</h4>
+                <p className='px-4 font-regular text-lg pt-4 text-gray-800'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
             </div>
             <div 
             data-aos="zoom-in"
-            className='flex flex-col justify-center items-center backdrop-filter backdrop-blur-3xl w-72 h-56 border-2  border-[#b83535] text-[#1e4798] cursor-pointer rounded-2xl'>
-            <h4 className='text-2xl'>Analytics</h4>
-            <p className='px-4 font-regular text-lg pt-4'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
+            className='flex flex-col justify-center items-center backdrop-filter backdrop-blur-3xl w-96 h-56 hover:shadow-lg hover:shadow-blue-900 cursor-pointer rounded-2xl'>
+            <h4 className='text-2xl text-[#1e4798]'>Analytics</h4>
+            <p className='px-4 font-regular text-lg pt-4 text-gray-800'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
             </div>
             <div
             data-aos="fade-left"
-            className='flex flex-col justify-center items-center w-72 h-56 border-2  border-[#b83535] text-[#1e4798] cursor-pointer rounded-2xl backdrop-filter backdrop-blur-3xl'>
-            <h4 className='text-2xl'>Examples</h4>
-            <p className='px-4 font-regular text-lg pt-4'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
+            className='flex flex-col justify-center items-center w-96 h-56 hover:shadow-lg hover:shadow-blue-900 cursor-pointer rounded-2xl backdrop-filter backdrop-blur-3xl'>
+            <h4 className='text-2xl text-[#1e4798]'>Examples</h4>
+            <p className='px-4 font-regular text-lg pt-4 text-gray-800'>Fuel optimal campaigns with thousands of high-performing audiences.</p>
             </div>
         </div> 
     </div>
-   
     </section>
   
     </>

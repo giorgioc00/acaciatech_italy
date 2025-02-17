@@ -1,10 +1,10 @@
 import { useIsVisible } from "./Scrollefect";
-import { motion } from "framer-motion";
 
 import { useRef } from "react"
 import "../index.css"
 import { Helmet } from 'react-helmet-async';
-import Quote from "./Quote";
+
+import Services from "./Services";
 // import { telephone,ethiopia,logo } from "../images/img";
 
 const Header = () => {
@@ -20,7 +20,7 @@ const Header = () => {
       <title>Acacia Technologies</title>
       <meta name="description" content="Acacia technologies is a custom software and web application development and design company." />
     </Helmet>
-      <div id="home" className="pb-10 lg:pb-80 mx-auto custom-bg bg-cover bg-center bg-fixed header">
+      <div id="home" className="pb-10 lg:pb-20 mx-auto custom-bg bg-cover bg-center bg-fixed header">
         <div className="lg:border-none">
           <div className="container lg:flex lg:flex-col-4">
             <div className="mt-28 lg:ml-20 mx-4">
@@ -56,12 +56,13 @@ const Header = () => {
                 </a>
               </div>
               </div>
-              
             </div>
-            <div></div>
+            
           </div>
         {/* add quote */}
-       
+        </div>
+        <div className="pt-32">
+          <Services />
         </div>
       </div>
     </>

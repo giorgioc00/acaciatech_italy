@@ -122,3 +122,19 @@ header {
   background-size: cover;
   background-position: center;
 }
+/* horizontal scroll */
+.logo-slider {
+  display: flex;
+  gap: 4rem;
+  animation: scroll 25s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+}
+} 
+
