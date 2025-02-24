@@ -4,7 +4,7 @@ import { useRef } from "react"
 import "../index.css"
 import { Helmet } from 'react-helmet-async';
 
-import Services from "./Services";
+import Banner from "./Banner";
 // import { telephone,ethiopia,logo } from "../images/img";
 
 const Header = () => {
@@ -62,7 +62,7 @@ const Header = () => {
         {/* add quote */}
         </div>
         <div className="pt-32">
-          <Services />
+          <Banner />
         </div>
       </div>
     </>
